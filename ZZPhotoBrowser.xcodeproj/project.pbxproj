@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300F2DFF1CE86DE4008F63E9 /* ZZPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 300F2DF21CE86DE4008F63E9 /* ZZPhoto.m */; };
+		300F2E001CE86DE4008F63E9 /* ZZPhotoBottomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 300F2DF41CE86DE4008F63E9 /* ZZPhotoBottomToolBar.m */; };
+		300F2E011CE86DE4008F63E9 /* ZZPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 300F2DF61CE86DE4008F63E9 /* ZZPhotoBrowser.m */; };
+		300F2E021CE86DE4008F63E9 /* ZZPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 300F2DF81CE86DE4008F63E9 /* ZZPhotoCollectionViewCell.m */; };
+		300F2E031CE86DE4008F63E9 /* ZZPhotoImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 300F2DF91CE86DE4008F63E9 /* ZZPhotoImages.bundle */; };
+		300F2E041CE86DE4008F63E9 /* ZZPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 300F2DFB1CE86DE4008F63E9 /* ZZPhotoScrollView.m */; };
+		300F2E051CE86DE4008F63E9 /* ZZPhotoTopToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 300F2DFE1CE86DE4008F63E9 /* ZZPhotoTopToolBar.m */; };
+		7E1866C479DC5FB784BAAE3A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB9BF3FDB297AB5FFD2114F /* libPods.a */; };
+		BB6F03DB1CC87CFC004EF786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6F03DA1CC87CFC004EF786 /* main.m */; };
+		BB6F03DE1CC87CFC004EF786 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6F03DD1CC87CFC004EF786 /* AppDelegate.m */; };
+		BB6F03E11CC87CFC004EF786 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6F03E01CC87CFC004EF786 /* ViewController.m */; };
+		BB6F03E41CC87CFC004EF786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6F03E21CC87CFC004EF786 /* Main.storyboard */; };
+		BB6F03E61CC87CFC004EF786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6F03E51CC87CFC004EF786 /* Assets.xcassets */; };
+		BB6F03E91CC87CFC004EF786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6F03E71CC87CFC004EF786 /* LaunchScreen.storyboard */; };
+		BBCC1F011CC9D1420029A745 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCC1F001CC9D1420029A745 /* UIKit.framework */; };
+		BBCC1F031CC9D14A0029A745 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCC1F021CC9D14A0029A745 /* CFNetwork.framework */; };
+		BBCC1F051CC9D1510029A745 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCC1F041CC9D1510029A745 /* CoreGraphics.framework */; };
+		BBCC1F071CC9D1580029A745 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCC1F061CC9D1570029A745 /* QuartzCore.framework */; };
+		BBCC1F091CC9D15E0029A745 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCC1F081CC9D15E0029A745 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20FAD281822442471384E10D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2A981D61803F45FF490BB481 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		300F2DF11CE86DE4008F63E9 /* ZZPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPhoto.h; sourceTree = "<group>"; };
+		300F2DF21CE86DE4008F63E9 /* ZZPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPhoto.m; sourceTree = "<group>"; };
+		300F2DF31CE86DE4008F63E9 /* ZZPhotoBottomToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPhotoBottomToolBar.h; sourceTree = "<group>"; };
+		300F2DF41CE86DE4008F63E9 /* ZZPhotoBottomToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPhotoBottomToolBar.m; sourceTree = "<group>"; };
+		300F2DF51CE86DE4008F63E9 /* ZZPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPhotoBrowser.h; sourceTree = "<group>"; };
+		300F2DF61CE86DE4008F63E9 /* ZZPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPhotoBrowser.m; sourceTree = "<group>"; };
+		300F2DF71CE86DE4008F63E9 /* ZZPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		300F2DF81CE86DE4008F63E9 /* ZZPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		300F2DF91CE86DE4008F63E9 /* ZZPhotoImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZZPhotoImages.bundle; sourceTree = "<group>"; };
+		300F2DFA1CE86DE4008F63E9 /* ZZPhotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPhotoScrollView.h; sourceTree = "<group>"; };
+		300F2DFB1CE86DE4008F63E9 /* ZZPhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPhotoScrollView.m; sourceTree = "<group>"; };
+		300F2DFC1CE86DE4008F63E9 /* ZZPhotoToolBarProctol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPhotoToolBarProctol.h; sourceTree = "<group>"; };
+		300F2DFD1CE86DE4008F63E9 /* ZZPhotoTopToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPhotoTopToolBar.h; sourceTree = "<group>"; };
+		300F2DFE1CE86DE4008F63E9 /* ZZPhotoTopToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPhotoTopToolBar.m; sourceTree = "<group>"; };
+		BB6F03D61CC87CFC004EF786 /* ZZPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6F03DA1CC87CFC004EF786 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB6F03DC1CC87CFC004EF786 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB6F03DD1CC87CFC004EF786 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB6F03DF1CC87CFC004EF786 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB6F03E01CC87CFC004EF786 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB6F03E31CC87CFC004EF786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB6F03E51CC87CFC004EF786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB6F03E81CC87CFC004EF786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB6F03EA1CC87CFC004EF786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCC1F001CC9D1420029A745 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BBCC1F021CC9D14A0029A745 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BBCC1F041CC9D1510029A745 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBCC1F061CC9D1570029A745 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BBCC1F081CC9D15E0029A745 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BDB9BF3FDB297AB5FFD2114F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB6F03D31CC87CFC004EF786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCC1F091CC9D15E0029A745 /* libz.tbd in Frameworks */,
+				BBCC1F071CC9D1580029A745 /* QuartzCore.framework in Frameworks */,
+				BBCC1F051CC9D1510029A745 /* CoreGraphics.framework in Frameworks */,
+				BBCC1F031CC9D14A0029A745 /* CFNetwork.framework in Frameworks */,
+				BBCC1F011CC9D1420029A745 /* UIKit.framework in Frameworks */,
+				7E1866C479DC5FB784BAAE3A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300F2DF01CE86DE4008F63E9 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				300F2DF11CE86DE4008F63E9 /* ZZPhoto.h */,
+				300F2DF21CE86DE4008F63E9 /* ZZPhoto.m */,
+				300F2DF31CE86DE4008F63E9 /* ZZPhotoBottomToolBar.h */,
+				300F2DF41CE86DE4008F63E9 /* ZZPhotoBottomToolBar.m */,
+				300F2DF51CE86DE4008F63E9 /* ZZPhotoBrowser.h */,
+				300F2DF61CE86DE4008F63E9 /* ZZPhotoBrowser.m */,
+				300F2DF71CE86DE4008F63E9 /* ZZPhotoCollectionViewCell.h */,
+				300F2DF81CE86DE4008F63E9 /* ZZPhotoCollectionViewCell.m */,
+				300F2DF91CE86DE4008F63E9 /* ZZPhotoImages.bundle */,
+				300F2DFA1CE86DE4008F63E9 /* ZZPhotoScrollView.h */,
+				300F2DFB1CE86DE4008F63E9 /* ZZPhotoScrollView.m */,
+				300F2DFC1CE86DE4008F63E9 /* ZZPhotoToolBarProctol.h */,
+				300F2DFD1CE86DE4008F63E9 /* ZZPhotoTopToolBar.h */,
+				300F2DFE1CE86DE4008F63E9 /* ZZPhotoTopToolBar.m */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		4D424E7AC7E645426688DDB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBCC1F081CC9D15E0029A745 /* libz.tbd */,
+				BBCC1F061CC9D1570029A745 /* QuartzCore.framework */,
+				BBCC1F041CC9D1510029A745 /* CoreGraphics.framework */,
+				BBCC1F021CC9D14A0029A745 /* CFNetwork.framework */,
+				BBCC1F001CC9D1420029A745 /* UIKit.framework */,
+				BDB9BF3FDB297AB5FFD2114F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E258D81FBDF9AC5C47DCA25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A981D61803F45FF490BB481 /* Pods.debug.xcconfig */,
+				20FAD281822442471384E10D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB6F03CD1CC87CFC004EF786 = {
+			isa = PBXGroup;
+			children = (
+				BB6F03D81CC87CFC004EF786 /* ZZPhotoBrowser */,
+				BB6F03D71CC87CFC004EF786 /* Products */,
+				8E258D81FBDF9AC5C47DCA25 /* Pods */,
+				4D424E7AC7E645426688DDB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB6F03D71CC87CFC004EF786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6F03D61CC87CFC004EF786 /* ZZPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB6F03D81CC87CFC004EF786 /* ZZPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				300F2DF01CE86DE4008F63E9 /* PhotoBrowser */,
+				BB6F03DC1CC87CFC004EF786 /* AppDelegate.h */,
+				BB6F03DD1CC87CFC004EF786 /* AppDelegate.m */,
+				BB6F03DF1CC87CFC004EF786 /* ViewController.h */,
+				BB6F03E01CC87CFC004EF786 /* ViewController.m */,
+				BB6F03E21CC87CFC004EF786 /* Main.storyboard */,
+				BB6F03E51CC87CFC004EF786 /* Assets.xcassets */,
+				BB6F03E71CC87CFC004EF786 /* LaunchScreen.storyboard */,
+				BB6F03EA1CC87CFC004EF786 /* Info.plist */,
+				BB6F03D91CC87CFC004EF786 /* Supporting Files */,
+			);
+			path = ZZPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		BB6F03D91CC87CFC004EF786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB6F03DA1CC87CFC004EF786 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB6F03D51CC87CFC004EF786 /* ZZPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6F03ED1CC87CFC004EF786 /* Build configuration list for PBXNativeTarget "ZZPhotoBrowser" */;
+			buildPhases = (
+				C0E33605C4D64299862F9DB0 /* Check Pods Manifest.lock */,
+				BB6F03D21CC87CFC004EF786 /* Sources */,
+				BB6F03D31CC87CFC004EF786 /* Frameworks */,
+				BB6F03D41CC87CFC004EF786 /* Resources */,
+				6106E66978881A94EE68F59A /* Embed Pods Frameworks */,
+				4CE50090F0C824229CC3CDB9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZPhotoBrowser;
+			productName = ZZPhotoBrowser;
+			productReference = BB6F03D61CC87CFC004EF786 /* ZZPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB6F03CE1CC87CFC004EF786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zxq;
+				TargetAttributes = {
+					BB6F03D51CC87CFC004EF786 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BB6F03D11CC87CFC004EF786 /* Build configuration list for PBXProject "ZZPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB6F03CD1CC87CFC004EF786;
+			productRefGroup = BB6F03D71CC87CFC004EF786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6F03D51CC87CFC004EF786 /* ZZPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB6F03D41CC87CFC004EF786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300F2E031CE86DE4008F63E9 /* ZZPhotoImages.bundle in Resources */,
+				BB6F03E91CC87CFC004EF786 /* LaunchScreen.storyboard in Resources */,
+				BB6F03E61CC87CFC004EF786 /* Assets.xcassets in Resources */,
+				BB6F03E41CC87CFC004EF786 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CE50090F0C824229CC3CDB9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6106E66978881A94EE68F59A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E33605C4D64299862F9DB0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6F03D21CC87CFC004EF786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6F03E11CC87CFC004EF786 /* ViewController.m in Sources */,
+				300F2E011CE86DE4008F63E9 /* ZZPhotoBrowser.m in Sources */,
+				BB6F03DE1CC87CFC004EF786 /* AppDelegate.m in Sources */,
+				300F2E001CE86DE4008F63E9 /* ZZPhotoBottomToolBar.m in Sources */,
+				300F2DFF1CE86DE4008F63E9 /* ZZPhoto.m in Sources */,
+				300F2E051CE86DE4008F63E9 /* ZZPhotoTopToolBar.m in Sources */,
+				300F2E021CE86DE4008F63E9 /* ZZPhotoCollectionViewCell.m in Sources */,
+				300F2E041CE86DE4008F63E9 /* ZZPhotoScrollView.m in Sources */,
+				BB6F03DB1CC87CFC004EF786 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB6F03E21CC87CFC004EF786 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6F03E31CC87CFC004EF786 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB6F03E71CC87CFC004EF786 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6F03E81CC87CFC004EF786 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB6F03EB1CC87CFC004EF786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB6F03EC1CC87CFC004EF786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB6F03EE1CC87CFC004EF786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A981D61803F45FF490BB481 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mou Liang (EZRFHY6HW2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mou Liang (EZRFHY6HW2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZZPhotoBrowser",
+				);
+				INFOPLIST_FILE = ZZPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "71f6ec32-5642-4843-8e46-11d9906847be";
+			};
+			name = Debug;
+		};
+		BB6F03EF1CC87CFC004EF786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FAD281822442471384E10D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZZPhotoBrowser",
+				);
+				INFOPLIST_FILE = ZZPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6F03D11CC87CFC004EF786 /* Build configuration list for PBXProject "ZZPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6F03EB1CC87CFC004EF786 /* Debug */,
+				BB6F03EC1CC87CFC004EF786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6F03ED1CC87CFC004EF786 /* Build configuration list for PBXNativeTarget "ZZPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6F03EE1CC87CFC004EF786 /* Debug */,
+				BB6F03EF1CC87CFC004EF786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB6F03CE1CC87CFC004EF786 /* Project object */;
+}
